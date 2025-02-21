@@ -11,13 +11,13 @@
 1. Clone the repository
 
 ```bash
-git clone https://github.com/poker-bot-battles/PokerBotEngine2024.git
+git clone https://github.com/poker-bot-battles/poker-bot-engine-2025.git
 ```
 
 2. Install the requirements
 
 ```bash
-cd PokerBotEngine2024
+cd poker-bot-engine-2025
 pip install eval7 open-spiel --no-cache-dir
 pip install poker-game-runner --no-cache-dir --no-deps
 ```
