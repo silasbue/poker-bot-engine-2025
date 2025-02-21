@@ -158,11 +158,11 @@ public class Observable {
    * <code>stack</code>: the amount of money the player has left<p>
    * <code>active</code>: whether the player is still active in the game<p>
    *
-   * @return Current state of all players in the game
+   * @return Your current state
    * @see PlayerInfo
    */
-  public ArrayList<PlayerInfo> getMyPlayerInfo() {
-    return new ArrayList<>(playerInfos);
+  public PlayerInfo getMyPlayerInfo() {
+    return playerInfos.get(myIndex);
   }
 
   /**
