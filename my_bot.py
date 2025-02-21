@@ -3,7 +3,7 @@ from poker_game_runner.utils import Range, HandType
 import time
 import random
 
-BOT_NAME = "Python Bot"
+BOT_NAME = "Python Bot" # Change this to your bot's name
 
 class Bot:
   @classmethod
