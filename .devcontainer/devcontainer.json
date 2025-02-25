@@ -7,16 +7,10 @@
         "vscode": {
         // Add the IDs of extensions you want installed when the container is created.
             "extensions": [
-                "ms-python.python",
-                "VisualStudioExptTeam.vscodeintellicode",
-                "VisualStudioExptTeam.intellicode-api-usage-examples",
+                "ms-python.vscode-pylance",
                 "redhat.java",
-                "vscjava.vscode-java-dependency",
-                "spmeesseman.vscode-taskexplorer",
-                "vscjava.vscode-java-pack"
-            ],
-            "settings": {
-            }
+                "spmeesseman.vscode-taskexplorer"
+            ]
         }
     }
 }

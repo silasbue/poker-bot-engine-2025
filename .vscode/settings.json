@@ -8,39 +8,33 @@
     "javabot/libs/jackson-databind-2.9.9.3.jar"
   ],
   "debug.showInStatusBar": "never",
-  "taskExplorer.exclude": [
-    "**/.vscode-test/**",
-    "**/Assets/**",
-    "**/bin/**",
-    "**/build/**",
-    "**/dist/**",
-    "**/doc/**",
-    "**/example/**",
-    "**/examples/**",
-    "**/ext/**",
-    "**/obj/**",
-    "**/out/**",
-    "**/output/**",
-    "**/packages/**",
-    "**/release/**",
-    "**/releases/**",
-    "**/samples/**",
-    "**/sdks/**",
-    "**/static/**",
-    "**/target/**",
-    "**/test/**",
-    "**/third_party/**",
-    "**/vendor/**",
-    "**/work/**",
-    "/workspaces/poker-bot-engine-2025/**"
-  ],
+  "taskExplorer.enabledTasks": {
+    "ant": false,
+    "appPublisher": false,
+    "bash": false,
+    "composer": false,
+    "gradle": false,
+    "grunt": false,
+    "gulp": false,
+    "make": false,
+    "maven": false,
+    "npm": false,
+    "nsis": false,
+    "perl": false,
+    "pipenv": false,
+    "powershell": false,
+    "python": false,
+    "ruby": false,
+    "tsc": false,
+    "workspace": true
+  },
   "taskExplorer.showLastTasks": false,
   "workbench.statusBar.visible": false,
   "taskExplorer.expanded": {
     "userTasks": true
   },
   "breadcrumbs.enabled": false,
-  "workbench.activityBar.location": "default",
+  "workbench.activityBar.location": "hidden",
   "editor.minimap.enabled": false,
   "files.exclude": {
     "**/.devcontainer": true,
@@ -57,5 +51,6 @@
     "javabot/Range.java": true,
     "javabot/SuperBot.java": true,
     "main.py": true
-  }
+  },
+  "extensions.ignoreRecommendations": true  
 }
