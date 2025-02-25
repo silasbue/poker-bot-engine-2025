@@ -52,5 +52,9 @@
     "javabot/SuperBot.java": true,
     "main.py": true
   },
-  "extensions.ignoreRecommendations": true  
+  "extensions.ignoreRecommendations": true,
+  "window.commandCenter": false,
+  "window.title": "${dirty}${activeEditorShort}${separator}",
+  "workbench.layoutControl.enabled": false,
+
 }
