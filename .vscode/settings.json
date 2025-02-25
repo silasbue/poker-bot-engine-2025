@@ -50,11 +50,13 @@
     "javabot/PokerUtilities.java": true,
     "javabot/Range.java": true,
     "javabot/SuperBot.java": true,
-    "main.py": true
+    "main.py": true,
+    "__pycache__": true
   },
   "extensions.ignoreRecommendations": true,
   "window.commandCenter": false,
   "window.title": "${dirty}${activeEditorShort}${separator}",
   "workbench.layoutControl.enabled": false,
-
-}
+  "git.enabled": false,
+  "debug.internalConsoleOptions": "neverOpen",
+  }
