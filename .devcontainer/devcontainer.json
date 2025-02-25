@@ -11,8 +11,12 @@
                 "VisualStudioExptTeam.vscodeintellicode",
                 "VisualStudioExptTeam.intellicode-api-usage-examples",
                 "redhat.java",
-                "vscjava.vscode-java-dependency"
-            ]
+                "vscjava.vscode-java-dependency",
+                "spmeesseman.vscode-taskexplorer",
+                "vscjava.vscode-java-pack"
+            ],
+            "settings": {
+            }
         }
     }
 }
