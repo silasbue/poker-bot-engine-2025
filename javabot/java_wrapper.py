@@ -57,4 +57,4 @@ class Bot:
       subprocess.run(["rm", "javabot/HandType.class"])
       subprocess.run(["rm", "javabot/ActionInfo.class"])
       subprocess.run(["rm", "javabot/SuperBot.class"])
-      subprocess.run(["rm", "javabot/Range.class"])
+      subprocess.run(["rm", "javabot/Range.class"], stderr=subprocess.DEVNULL)

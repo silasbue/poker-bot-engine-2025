@@ -2,25 +2,25 @@
   "version": "2.0.0",
   "tasks": [
     {
-      "label": "runtablejava",
+      "label": "Run single game (Java)",
       "command": "python3", // Could be any other shell command
       "args": ["main.py", "java", "table"],
       "type": "shell"
     },
     {
-      "label": "runbenchmarkjava",
+      "label": "Run 100 games (Java)",
       "command": "python3", // Could be any other shell command
       "args": ["main.py", "java", "benchmark", "100"],
       "type": "shell"
     },
     {
-      "label": "runtablepython",
+      "label": "Run single game (Python)",
       "command": "python3", // Could be any other shell command
       "args": ["main.py", "python", "table"],
       "type": "shell"
     },
     {
-      "label": "runbenchmarkpython",
+      "label": "Run 100 games (Python)",
       "command": "python3", // Could be any other shell command
       "args": ["main.py", "python", "benchmark", "100"],
       "type": "shell"
