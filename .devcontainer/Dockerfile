@@ -1,4 +1,4 @@
-FROM mcr.microsoft.com/devcontainers/universal:2
+FROM FROM python:3.10-slim
 
 # Copy requirements files from your project root to container
 COPY req1.txt req2.txt /tmp/
