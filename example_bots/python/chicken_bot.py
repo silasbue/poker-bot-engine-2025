@@ -1,10 +1,15 @@
 from poker_game_runner.state import Observation
 from poker_game_runner.utils import Range, HandType
 
+BOT_NAME = "Chicken Bot"
 
 class Bot:
+    @classmethod
+    def get_name_class(cls, path):
+        return BOT_NAME
+
     def get_name(self):
-        return "chicken_bot"
+        return BOT_NAME
 
     def act(self, obs: Observation):
         # This bot checks if the amount to call is greater than 0

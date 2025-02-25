@@ -2,11 +2,16 @@ from poker_game_runner.state import Observation
 from poker_game_runner.utils import Range, HandType
 import random
 
+BOT_NAME = "Hardcore AI Bot"
+# Also known as 'if else' https://img.devrant.com/devrant/rant/r_2134966_hjkcf.jpg
 
 class Bot:
+    @classmethod
+    def get_name_class(cls, path):
+        return BOT_NAME
+
     def get_name(self):
-        return "hardcore_ai_bot"
-        # Also known as 'if else' https://img.devrant.com/devrant/rant/r_2134966_hjkcf.jpg
+        return BOT_NAME
 
     def act(self, obs: Observation):
         random_int = random.randint(0, 3)

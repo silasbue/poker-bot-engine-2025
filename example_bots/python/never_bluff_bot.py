@@ -4,10 +4,15 @@ from poker_game_runner.utils import Range, HandType
   This bot will only raise, if its hand is better than the cards on the table.
 """
 
+BOT_NAME = "Never Bluff Bot"
 
 class Bot:
+    @classmethod
+    def get_name_class(cls, path):
+        return BOT_NAME
+
     def get_name(self):
-        return "never_bluff_bot"
+        return BOT_NAME
 
     def act(self, obs: Observation):
 

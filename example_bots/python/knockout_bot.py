@@ -4,10 +4,15 @@ from poker_game_runner.utils import Range, HandType
   This bot scans the board, for the lowest cash stack, and will raise the pot to match, in an attempt to knockout the player.
 """
 
+BOT_NAME = "Knockout Bot"
 
 class Bot:
+    @classmethod
+    def get_name_class(cls, path):
+        return BOT_NAME
+
     def get_name(self):
-        return "knockout_bot"
+        return BOT_NAME
 
     def act(self, obs: Observation):
         stack_sizes = []

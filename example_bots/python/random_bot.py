@@ -7,9 +7,15 @@ import random
 This bot makes a random number which is either 0 or 1. If it is 1, it will always raise the minimum amount that it possibly can. Otherwise, it attempts to call.
 """
 
+BOT_NAME = "Random Bot"
+
 class Bot:
+  @classmethod
+  def get_name_class(cls, path):
+    return BOT_NAME
+
   def get_name(self):
-      return "random_bot"
+      return BOT_NAME
 
   def act(self, obs: Observation):
     shouldRaise = random.randint(0,1)
