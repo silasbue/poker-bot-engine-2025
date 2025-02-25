@@ -36,4 +36,26 @@
   ],
   "taskExplorer.showLastTasks": false,
   "workbench.statusBar.visible": false,
+  "taskExplorer.expanded": {
+    "userTasks": true
+  },
+  "breadcrumbs.enabled": false,
+  "workbench.activityBar.location": "default",
+  "editor.minimap.enabled": false,
+  "files.exclude": {
+    "**/.devcontainer": true,
+    "**/.vscode": true,
+    "req1.txt": true,
+    "req2.txt": true,
+    "requirements.txt": true,
+    "TestObs.json": true,
+    "test.py": true,
+    "javabot/libs": true,
+    "javabot/java_wrapper.py": true,
+    "javabot/Observable.java": true,
+    "javabot/PokerUtilities.java": true,
+    "javabot/Range.java": true,
+    "javabot/SuperBot.java": true,
+    "main.py": true
+  }
 }
