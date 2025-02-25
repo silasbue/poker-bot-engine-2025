@@ -50,7 +50,6 @@
     "javabot/PokerUtilities.java": true,
     "javabot/Range.java": true,
     "javabot/SuperBot.java": true,
-    "main.py": true,
     "**/__pycache__": true
   },
   "extensions.ignoreRecommendations": true,

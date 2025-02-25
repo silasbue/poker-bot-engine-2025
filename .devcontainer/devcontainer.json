@@ -1,15 +1,17 @@
 {
-    "image":"mcr.microsoft.com/devcontainers/universal:2",
-    "postCreateCommand": "pip3 install -r req1.txt; pip3 install -r req2.txt --no-deps",
+    "build": {
+        "dockerfile": "Dockerfile",
+        "context": ".."
+    },
     // Configure tool-specific properties.
     "customizations": {
     // Configure properties specific to VS Code.
         "vscode": {
         // Add the IDs of extensions you want installed when the container is created.
             "extensions": [
+                "spmeesseman.vscode-taskexplorer",
                 "ms-python.vscode-pylance",
-                "redhat.java",
-                "spmeesseman.vscode-taskexplorer"
+                "redhat.java"          
             ]
         }
     }
