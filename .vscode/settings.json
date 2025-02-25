@@ -51,7 +51,7 @@
     "javabot/Range.java": true,
     "javabot/SuperBot.java": true,
     "main.py": true,
-    "__pycache__": true
+    "**/__pycache__": true
   },
   "extensions.ignoreRecommendations": true,
   "window.commandCenter": false,
@@ -59,4 +59,5 @@
   "workbench.layoutControl.enabled": false,
   "git.enabled": false,
   "debug.internalConsoleOptions": "neverOpen",
+  "redhat.telemetry.enabled": false
   }
