@@ -43,9 +43,9 @@ class Bot:
                 if obs.get_my_hand_type() >= HandType.TWOPAIR:
                     return obs.get_fraction_pot_raise(1)
             case _:
-                if Range("55+, A5s+, K9s+, Q9s+, JTs, A9o+, KTo+").is_hand_in_range(
-                    obs.my_hand
-                ):
+                if Range(
+                    "55+, A3s+, K7s+, Q9s+, J9s+, A8o+, KTo+, QJo"
+                ).is_hand_in_range(obs.my_hand):
                     return obs.get_fraction_pot_raise(1)
                 return 0
         return 0

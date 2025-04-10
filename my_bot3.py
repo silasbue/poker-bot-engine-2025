@@ -15,7 +15,6 @@ class Bot:
     def get_name(self):
         return BOT_NAME
 
-
     def act(self, obs: Observation):
         best_hand = Range("AA")  # 0.5%
         great_hand = Range("QQ+")  # 1.4%
@@ -39,16 +38,15 @@ class Bot:
             case 60:
                 aggresiveness += 0.1
 
-
         if len(obs.get_active_players()) <= 3:
             aggresiveness += 0.2
-            
+
         if obs.get_my_hand_type() >= HandType.FOUROFAKIND:
             if random.random() * aggresiveness > 0.5:
                 return obs.get_max_raise()
             else:
                 return obs.get_fraction_pot_raise(3)
-        
+
         if obs.get_my_hand_type() >= HandType.FULLHOUSE:
             if random.random() * aggresiveness > 0.5:
                 return obs.get_fraction_pot_raise(4)
@@ -67,7 +65,6 @@ class Bot:
             else:
                 return obs.get_fraction_pot_raise(0.7)
 
-
         if great_hand.is_hand_in_range(obs.my_hand):
             return obs.get_max_raise()
 
@@ -78,6 +75,5 @@ class Bot:
             return 1
         else:
             return 0
-
 
         return obs.get_max_raise()  # All-in
