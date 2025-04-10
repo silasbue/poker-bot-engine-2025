@@ -34,7 +34,7 @@ class Bot:
             return obs.get_max_raise()
 
         if obs.get_my_hand_type() >= HandType.FULLHOUSE:
-            return obs.get_fraction_pot_raise(2)
+            return obs.get_min_raisection_pot_raise(2)
 
         if obs.get_my_hand_type() >= HandType.THREEOFAKIND:
             return obs.get_fraction_pot_raise(1)
