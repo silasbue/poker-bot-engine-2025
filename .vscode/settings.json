@@ -8,33 +8,10 @@
     "javabot/libs/jackson-databind-2.9.9.3.jar"
   ],
   "debug.showInStatusBar": "never",
-  "taskExplorer.enabledTasks": {
-    "ant": false,
-    "appPublisher": false,
-    "bash": false,
-    "composer": false,
-    "gradle": false,
-    "grunt": false,
-    "gulp": false,
-    "make": false,
-    "maven": false,
-    "npm": false,
-    "nsis": false,
-    "perl": false,
-    "pipenv": false,
-    "powershell": false,
-    "python": false,
-    "ruby": false,
-    "tsc": false,
-    "workspace": true
-  },
-  "taskExplorer.showLastTasks": false,
   "workbench.statusBar.visible": false,
-  "taskExplorer.expanded": {
-    "userTasks": true
-  },
   "breadcrumbs.enabled": false,
-  "workbench.activityBar.location": "hidden",
+  "workbench.activityBar.location": "default",
+  "workbench.secondarySideBar.defaultVisibility": "hidden",
   "editor.minimap.enabled": false,
   "files.exclude": {
     "**/.devcontainer": true,

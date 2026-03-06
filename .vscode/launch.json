@@ -1,0 +1,33 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Run single game (Java)",
+      "type": "node",
+      "request": "launch",
+      "preLaunchTask": "Run single game (Java)",
+      "program": "${workspaceFolder}/main.py"
+    },
+    {
+      "name": "Run 100 games (Java)",
+      "type": "node",
+      "request": "launch",
+      "preLaunchTask": "Run 100 games (Java)",
+      "program": "${workspaceFolder}/main.py"
+    },
+    {
+      "name": "Run single game (Python)",
+      "type": "node",
+      "request": "launch",
+      "preLaunchTask": "Run single game (Python)",
+      "program": "${workspaceFolder}/main.py"
+    },
+    {
+      "name": "Run 100 games (Python)",
+      "type": "node",
+      "request": "launch",
+      "preLaunchTask": "Run 100 games (Python)",
+      "program": "${workspaceFolder}/main.py"
+    }
+  ]
+}

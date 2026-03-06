@@ -1,4 +1,4 @@
-FROM mcr.microsoft.com/devcontainers/universal:2
+FROM mcr.microsoft.com/devcontainers/universal:latest
 
 # Copy requirements files from your project root to container
 COPY req1.txt req2.txt /tmp/

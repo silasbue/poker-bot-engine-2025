@@ -9,7 +9,6 @@
         "vscode": {
         // Add the IDs of extensions you want installed when the container is created.
             "extensions": [
-                "spmeesseman.vscode-taskexplorer",
                 "ms-python.vscode-pylance",
                 "redhat.java"          
             ]
